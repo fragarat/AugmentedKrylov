@@ -5,6 +5,8 @@ A high-performance numerical linear algebra framework implementing and evaluatin
 The codebase analyzes and benchmarks the convergence behaviors of standard **GMRES**, **Restarted GMRES**, **Block-GMRES**, and **Flexible/Deflated GMRES (DGMRES)**. It explores how augmenting Krylov subspaces with invariant or nearly invariant subspaces can mitigate the devastating stalling effects caused by small, isolated eigenvalues near the origin.
 
 ---
+![DGMRES Convergence History](dgmres.png)
+---
 
 ## 🚀 Key Features
 
